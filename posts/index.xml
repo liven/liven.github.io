@@ -73,5 +73,16 @@
 Рад приветствовать вас в моём обновленном блоге! Почему обновленный? Потому что я попрощался с octopress, и перешел на Hugo Некоторые старые статьи будут возвращены, новые постараюсь писать)</description>
     </item>
     
+    <item>
+      <title>Расстояние между двумя координатами</title>
+      <link>https://liven-mv.ru/posts/sql-distance/</link>
+      <pubDate>Sun, 23 Apr 2017 10:46:09 +0300</pubDate>
+      
+      <guid>https://liven-mv.ru/posts/sql-distance/</guid>
+      <description>&lt;p&gt;&lt;span style=&#34;margin-right: 2em;&#34;&gt;&lt;/span&gt;
+
+Доброго времени суток, коллеги и гости. Как то понадобилось мне узнать расстояние между двумя географическими координатами, причем наиболее легким и незамысловатым путем, еще и запросом в MySQL.&lt;/p&gt;</description>
+    </item>
+    
   </channel>
 </rss>

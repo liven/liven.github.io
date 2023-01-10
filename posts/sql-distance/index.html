@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+  
+  <meta name="viewport" content="width=device-width,minimum-scale=1,maximum-scale=1">
+
+  
+    
+    
+      <link href="/css/fonts.css" rel="stylesheet" type="text/css">
+    
+  
+
+  
+  <title>Расстояние между двумя координатами</title>
+
+  
+  
+  <link rel="stylesheet" href="/css/hugo-octopress.css">
+
+  
+  
+
+  
+    <link rel="stylesheet" href="/css/fork-awesome.min.css">
+  
+
+  
+  <link href="https://liven-mv.ru/favicon.png" rel="icon">
+
+  
+  
+
+  <meta name="description" content="" />
+  <meta name="keywords" content="">
+  <meta name="author" content="В.Ю.">
+
+  
+  <meta name="generator" content="Hugo 0.103.1" />
+
+  
+  
+
+  
+  
+</head>
+<body>
+
+
+<header role="banner">
+<hgroup>
+  
+  <h1><a href="/">Блог Василия Мазепина</a></h1>
+    <h2>Пишу о том, что кажется интересным</h2>
+</hgroup>
+</header>
+
+
+<nav role="navigation">
+<fieldset class="mobile-nav">
+  
+  <select onchange="location = this.value;">
+    <option value="">Navigate…</option>
+      
+        <option value="https://liven-mv.ru/">» Главная</option>
+      
+        <option value="https://liven-mv.ru/resume">» Моя работа</option>
+      
+  </select>
+</fieldset>
+
+
+<ul class="main-navigation">
+  
+  
+    
+      <li><a href="/" title="Главная">Главная</a></li>
+    
+  
+    
+      <li><a href="/resume" title="Моя работа"  rel="noopener noreferrer">Моя работа</a></li>
+    
+  
+</ul>
+
+<ul class="subscription">
+  
+</ul>
+
+
+</nav>
+
+
+<div id="main">
+  <div id="content">
+    <div>
+      <article class="hentry" role="article">
+
+        
+        
+
+<header>
+  <p class="meta">Apr 23, 2017
+    
+    
+
+    
+  </p>
+  <h1 class="entry-title">
+     Расстояние между двумя координатами 
+  </h1>
+</header>
+
+
+        <div class="entry-content">
+          
+          
+          
+          <p><span style="margin-right: 2em;"></span>
+
+Доброго времени суток, коллеги и гости. Как то понадобилось мне узнать расстояние между двумя географическими координатами, причем наиболее легким и незамысловатым путем, еще и запросом в MySQL.</p>
+<p><span style="margin-right: 2em;"></span>
+
+Долго бродил я по сети натыкаясь на разные рецепты. И наткнулся на официальный мануал от Google(сейчас уже ссылку не найду), который дал мне вот такую формулу:
+
+
+
+
+<figure class="code">
+  <figcaption>
+  	<span>SQL</span>
+  </figcaption>
+  <div class="codewrapper">
+    <div class="highlight"><div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
+<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 2
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 3
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 4
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 5
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 6
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 7
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 8
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 9
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">10
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">11
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">12
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">13
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">14
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">15
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sql" data-lang="sql"><span style="display:flex;"><span><span style="color:#66d9ef">SELECT</span> 
+</span></span><span style="display:flex;"><span>    id,
+</span></span><span style="display:flex;"><span>    (<span style="color:#ae81ff">6371</span> <span style="color:#f92672">*</span>
+</span></span><span style="display:flex;"><span>        acos(
+</span></span><span style="display:flex;"><span>            cos(radians(<span style="color:#ae81ff">37</span>)) <span style="color:#f92672">*</span>
+</span></span><span style="display:flex;"><span>            cos(radians(lat)) <span style="color:#f92672">*</span>
+</span></span><span style="display:flex;"><span>            cos(radians(lng) <span style="color:#f92672">-</span> radians(<span style="color:#f92672">-</span><span style="color:#ae81ff">122</span>)) <span style="color:#f92672">+</span>
+</span></span><span style="display:flex;"><span>            sin(radians(<span style="color:#ae81ff">37</span>)) <span style="color:#f92672">*</span>
+</span></span><span style="display:flex;"><span>            sin(radians(lat))
+</span></span><span style="display:flex;"><span>        )
+</span></span><span style="display:flex;"><span>    ) <span style="color:#66d9ef">AS</span> distance
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">FROM</span> markers
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">HAVING</span> distance <span style="color:#f92672">&lt;</span> <span style="color:#ae81ff">25</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">ORDER</span> <span style="color:#66d9ef">BY</span> distance
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">LIMIT</span> <span style="color:#ae81ff">0</span>,<span style="color:#ae81ff">20</span>;</span></span></code></pre></td></tr></table>
+</div>
+</div>
+  </div>
+</figure></p>
+<p><span style="margin-right: 2em;"></span>
+
+ В этом SQL-запросе находится 20 ближайших локаций в радиусе 25 километров для координаты (37, -122). Если необходимо искать в милях, замените в запросе 6371 на 3959. Такой запрос дает относительно неплохую точность, позволяя при этом не углубляться более сложными методами, такими как например Point в MySQL.
+Вот такой короткий пост в этом году, надеюсь рецепт этот поможет многим!
+Спасибо за внимание! Спишемся.</p>
+        </div>
+        
+
+<footer>
+  <p class="meta">
+    <span class="byline author vcard">Опубликовал: <span class="fn">В.Ю.</span></span>
+    
+    <time>Apr 23, 2017</time>
+    
+    </span>
+  </p>
+
+  
+
+  <p class="meta">
+    
+
+    
+      <a class="basic-alignment right" href="https://liven-mv.ru/posts/hello_world/" title="И снова здравствуйте!">И снова здравствуйте!</a>
+    
+  </p>
+  
+</footer>
+
+      </article>
+    </div>
+    
+
+<aside class="sidebar thirds">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  <section class="odd">
+  <h1>Мои соцсети</h1>
+  <ul class="sidebar-nav">
+    <li class="sidebar-nav-item">
+      <a target="_blank" rel="noopener noreferrer" href="https://github.com/liven" title="https://github.com/liven"><i class="fa fa-github fa-3x"></i></a>
+      
+      
+      
+      
+         
+      
+      
+      
+      
+      
+      
+      
+      
+
+    
+    
+    </li>
+  </ul>
+  </section>
+
+  
+  <section class="odd">
+    <h1>Полезные ссылки</h1>
+    <ul class="sidebar-nav">
+      <li class="sidebar-nav-item">
+        <a target="_blank" rel="noopener noreferrer" href="https://gribnitsa.tech/posts/dip/?utm_source=liven-mv.ru" title="DIP, абстракции, coupling">DIP, абстракции, coupling</a>
+        - про Dependency Inversion Principle
+      </li>
+    </ul>
+  </section>
+  
+
+
+
+
+
+  
+
+  
+  
+  
+</aside>
+
+  </div>
+</div>
+
+    <footer role="contentinfo">
+      <p align="center">Copyright &copy; 2023 В.Ю. - <a href="https://liven-mv.ru/license/">License</a> -
+        <span class="credit">Powered by <a target="_blank" href="https://gohugo.io" rel="noopener noreferrer">Hugo</a> and <a target="_blank" href="https://github.com/parsiya/hugo-octopress/" rel="noopener noreferrer">Hugo-Octopress</a> theme.
+      </p>
+    </footer>
+
+    
+    
+    
+
+    
+  </body>
+</html>
+
