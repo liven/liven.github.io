@@ -90,7 +90,7 @@
       <link>https://liven-mv.ru/posts/hello_world/</link>
       <pubDate>Wed, 27 Jan 2021 14:52:31 +0300</pubDate>
       <guid>https://liven-mv.ru/posts/hello_world/</guid>
-      <description>Доброго времени суток, друзья товарищи!!&#xA;Рад приветствовать вас в моём обновленном блоге! Почему обновленный? Потому что я попрощался с octopress, и перешел на Hugo Некоторые старые статьи будут возвращены, новые постараюсь писать)</description>
+      <description>&lt;p&gt;Доброго времени суток, друзья товарищи!!&lt;/p&gt;&#xA;&lt;p&gt;Рад приветствовать вас в моём обновленном блоге!&#xA;Почему обновленный? Потому что я попрощался с octopress, и перешел на &#xA;&lt;a href=&#34;https://gohugo.io&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Hugo&lt;/a&gt;&#xA;Некоторые старые статьи будут возвращены, новые постараюсь писать)&lt;/p&gt;</description>
     </item>
     <item>
       <title>Расстояние между двумя координатами</title>
