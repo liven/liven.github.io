@@ -6,8 +6,15 @@
     <description>Recent content on Блог Василия Мазепина</description>
     <generator>Hugo</generator>
     <language>ru-RU</language>
-    <lastBuildDate>Tue, 30 Dec 2025 09:00:00 +0300</lastBuildDate>
+    <lastBuildDate>Thu, 12 Mar 2026 00:00:00 +0300</lastBuildDate>
     <atom:link href="https://liven-mv.ru/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Резюме</title>
+      <link>https://liven-mv.ru/resume_new/</link>
+      <pubDate>Thu, 12 Mar 2026 00:00:00 +0300</pubDate>
+      <guid>https://liven-mv.ru/resume_new/</guid>
+      <description>&lt;h2 id=&#34;кратко-обо-мне&#34;&gt;Кратко обо мне&lt;/h2&gt;&#xA;&lt;p&gt;Senior Backend Developer (PHP/Symfony, Go) с коммерческим опытом с 2011 года. Разрабатывал и сопровождал веб‑сервисы и интеграционные решения в финтехе и e‑commerce, работал с высоконагруженными системами и внешними API (RetailCRM, InSales, МойСклад и др.).&lt;/p&gt;&#xA;&lt;p&gt;Сильные стороны — проектирование и развитие backend‑архитектуры, интеграции, разбиение монолита на микросервисы, BFF‑сервисы, работа с очередями, улучшение процессов команды и менторство. Привык брать ответственность за результат, а не только за код.&lt;/p&gt;&#xA;&lt;h2 id=&#34;ключевые-навыки&#34;&gt;Ключевые навыки&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Языки&lt;/strong&gt;: PHP 5.6–8.x, Golang&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Фреймворки и библиотеки&lt;/strong&gt;: Symfony 2–6, Twig, Doctrine ORM, PHPUnit, Behat&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Интеграции и API&lt;/strong&gt;: RetailCRM (API v3/v5), InSales API, МойСклад, разработка и поддержка REST API, BFF‑сервисы&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Базы данных&lt;/strong&gt;: PostgreSQL, MySQL, MongoDB&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Инфраструктура и очереди&lt;/strong&gt;: Docker (dev‑среда), RabbitMQ (включая retry‑политики), Redis, Beanstalk&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Качество и архитектура&lt;/strong&gt;: DTO, SOLID, стремление к TDD, покрытие тестами, code review, работа с legacy&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Процессы&lt;/strong&gt;: декомпозиция и оценка задач, участие в планировании, A/B‑тестирование, менторство стажёров&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;опыт-работы&#34;&gt;Опыт работы&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;Ноябрь 2025 — наст. время — ФИНФОРТ — Backend разработчик (PHP/Symfony)&lt;/strong&gt;&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Это был интересный 2025</title>
       <link>https://liven-mv.ru/posts/new_2026/</link>
