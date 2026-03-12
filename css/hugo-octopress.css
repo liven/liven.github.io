@@ -1432,10 +1432,15 @@ figure.code figcaption a:hover {
 #blog-archives h1 a:hover {
     color: #0181eb
 }
-#blog-archives a.category,
-#blog-archives time {
-    color: #aaa;
+#blog-archives a.category {
+    color: #fff;
+    background-color: #aaaaaa;
+    padding: 0.1em 0.4em;
+    border-radius: 3px;
+}
 
+#blog-archives time {
+    color: #aaaaaa;
 }
 #blog-archives .entry-content {
     display: none
@@ -1462,8 +1467,8 @@ figure.code figcaption a:hover {
 #blog-archives .entry-content a:hover {
     color: #0181eb
 }
-#blog-archives a:hover {
-    color: #0181eb
+#blog-archives a.category:hover {
+    color: #fff;
 }
 @media only screen and (min-width: 550px) {
     #blog-archives article {
@@ -1490,7 +1495,7 @@ figure.code figcaption a:hover {
         display: none;
     }*/
     #blog-archives article {
-        padding-left: 4.5em;
+        padding-left: 6.5em;  /* больше места под дату "31 декабря" */
         padding-bottom: .7em;
     }
     #blog-archives a.category {
@@ -1499,7 +1504,7 @@ figure.code figcaption a:hover {
 }
 #content>.category article {
     margin-left: 0;
-    padding-left: 6.8em
+    padding-left: 9.5em;   /* основной столбец правее, чтобы не пересекался с датой */
 }
 #content>.category .year {
     display: inline;
@@ -1714,7 +1719,20 @@ a.label:visited {
 
 .label {
   margin: 0 .25em;
-  background-color: #313131;
+  background-color: #aaaaaa;
+}
+
+.categories a.category {
+    background-color: #aaaaaa;
+    color: #fff;
+    padding: 0.1em 0.4em;
+    border-radius: 3px;
+    text-decoration: none;
+}
+
+.categories a.category:hover {
+    text-decoration: underline;
+    color: #fff;
 }
 
 .posts a.label,

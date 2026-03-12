@@ -8,19 +8,22 @@
     <loc>https://liven-mv.ru/resume_new/</loc>
     <lastmod>2026-03-12T00:00:00+03:00</lastmod>
   </url><url>
+    <loc>https://liven-mv.ru/categories/</loc>
+    <lastmod>2025-12-30T09:00:00+03:00</lastmod>
+  </url><url>
     <loc>https://liven-mv.ru/posts/</loc>
     <lastmod>2025-12-30T09:00:00+03:00</lastmod>
   </url><url>
-    <loc>https://liven-mv.ru/tags/</loc>
+    <loc>https://liven-mv.ru/categories/%D0%B8%D1%82%D0%BE%D0%B3%D0%B8/</loc>
     <lastmod>2025-12-30T09:00:00+03:00</lastmod>
   </url><url>
-    <loc>https://liven-mv.ru/tags/%D0%BD%D0%BE%D0%B2%D1%8B%D0%B9-%D0%B3%D0%BE%D0%B4/</loc>
+    <loc>https://liven-mv.ru/categories/%D0%BB%D0%B8%D1%87%D0%BD%D0%BE%D0%B5/</loc>
     <lastmod>2025-12-30T09:00:00+03:00</lastmod>
   </url><url>
     <loc>https://liven-mv.ru/posts/new_2026/</loc>
     <lastmod>2025-12-30T09:00:00+03:00</lastmod>
   </url><url>
-    <loc>https://liven-mv.ru/tags/live/</loc>
+    <loc>https://liven-mv.ru/categories/%D0%BC%D0%BD%D0%B5%D0%BD%D0%B8%D1%8F/</loc>
     <lastmod>2025-07-16T09:00:00+03:00</lastmod>
   </url><url>
     <loc>https://liven-mv.ru/posts/am/</loc>
@@ -29,11 +32,23 @@
     <loc>https://liven-mv.ru/posts/new_2025/</loc>
     <lastmod>2024-12-31T10:00:00+03:00</lastmod>
   </url><url>
+    <loc>https://liven-mv.ru/categories/%D0%B0%D0%B2%D1%82%D0%BE/</loc>
+    <lastmod>2024-09-26T12:46:25+03:00</lastmod>
+  </url><url>
     <loc>https://liven-mv.ru/posts/travel2024/</loc>
+    <lastmod>2024-09-26T12:46:25+03:00</lastmod>
+  </url><url>
+    <loc>https://liven-mv.ru/categories/%D0%BF%D1%83%D1%82%D0%B5%D1%88%D0%B5%D1%81%D1%82%D0%B2%D0%B8%D1%8F/</loc>
     <lastmod>2024-09-26T12:46:25+03:00</lastmod>
   </url><url>
     <loc>https://liven-mv.ru/podcasts/</loc>
     <lastmod>2024-05-19T20:00:00+03:00</lastmod>
+  </url><url>
+    <loc>https://liven-mv.ru/categories/%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%B0/</loc>
+    <lastmod>2024-02-01T08:00:00+03:00</lastmod>
+  </url><url>
+    <loc>https://liven-mv.ru/categories/%D1%83%D0%B4%D0%B0%D0%BB%D1%91%D0%BD%D0%BA%D0%B0/</loc>
+    <lastmod>2024-02-01T08:00:00+03:00</lastmod>
   </url><url>
     <loc>https://liven-mv.ru/posts/remote_work/</loc>
     <lastmod>2024-02-01T08:00:00+03:00</lastmod>
@@ -44,7 +59,13 @@
     <loc>https://liven-mv.ru/posts/while_i_sleep/</loc>
     <lastmod>2023-08-30T21:00:00+03:00</lastmod>
   </url><url>
+    <loc>https://liven-mv.ru/categories/%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/</loc>
+    <lastmod>2023-08-30T21:00:00+03:00</lastmod>
+  </url><url>
     <loc>https://liven-mv.ru/posts/bye_iphone/</loc>
+    <lastmod>2023-06-29T21:00:00+03:00</lastmod>
+  </url><url>
+    <loc>https://liven-mv.ru/categories/%D1%82%D0%B5%D1%85%D0%BD%D0%B8%D0%BA%D0%B0/</loc>
     <lastmod>2023-06-29T21:00:00+03:00</lastmod>
   </url><url>
     <loc>https://liven-mv.ru/posts/school-2023/</loc>
@@ -59,9 +80,6 @@
     <loc>https://liven-mv.ru/posts/new_mbp16/</loc>
     <lastmod>2021-12-25T20:27:57+03:00</lastmod>
   </url><url>
-    <loc>https://liven-mv.ru/tags/%D1%82%D0%B5%D1%85%D0%BD%D0%B8%D0%BA%D0%B0/</loc>
-    <lastmod>2021-12-25T20:27:57+03:00</lastmod>
-  </url><url>
     <loc>https://liven-mv.ru/posts/ponaehali/</loc>
     <lastmod>2021-12-24T09:00:00+03:00</lastmod>
   </url><url>
@@ -71,15 +89,15 @@
     <loc>https://liven-mv.ru/resume/</loc>
     <lastmod>2021-07-04T20:00:00+03:00</lastmod>
   </url><url>
-    <loc>https://liven-mv.ru/posts/hello_world/</loc>
+    <loc>https://liven-mv.ru/categories/%D0%B1%D0%BB%D0%BE%D0%B3/</loc>
     <lastmod>2021-01-27T14:52:31+03:00</lastmod>
   </url><url>
-    <loc>https://liven-mv.ru/tags/%D0%BA%D0%BE%D0%B4%D0%B8%D0%BC/</loc>
-    <lastmod>2017-04-23T10:46:09+03:00</lastmod>
+    <loc>https://liven-mv.ru/posts/hello_world/</loc>
+    <lastmod>2021-01-27T14:52:31+03:00</lastmod>
   </url><url>
     <loc>https://liven-mv.ru/posts/sql-distance/</loc>
     <lastmod>2017-04-23T10:46:09+03:00</lastmod>
   </url><url>
-    <loc>https://liven-mv.ru/categories/</loc>
+    <loc>https://liven-mv.ru/tags/</loc>
   </url>
 </urlset>

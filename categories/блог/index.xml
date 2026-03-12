@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Блог on Блог Василия Мазепина</title>
+    <link>https://liven-mv.ru/categories/%D0%B1%D0%BB%D0%BE%D0%B3/</link>
+    <description>Recent content in Блог on Блог Василия Мазепина</description>
+    <generator>Hugo</generator>
+    <language>ru-RU</language>
+    <lastBuildDate>Wed, 27 Jan 2021 14:52:31 +0300</lastBuildDate>
+    <atom:link href="https://liven-mv.ru/categories/%D0%B1%D0%BB%D0%BE%D0%B3/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>И снова здравствуйте!</title>
+      <link>https://liven-mv.ru/posts/hello_world/</link>
+      <pubDate>Wed, 27 Jan 2021 14:52:31 +0300</pubDate>
+      <guid>https://liven-mv.ru/posts/hello_world/</guid>
+      <description>&lt;p&gt;Доброго времени суток, друзья товарищи!!&lt;/p&gt;&#xA;&lt;p&gt;Рад приветствовать вас в моём обновленном блоге!&#xA;Почему обновленный? Потому что я попрощался с octopress, и перешел на &#xA;&lt;a href=&#34;https://gohugo.io&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Hugo&lt;/a&gt;&#xA;Некоторые старые статьи будут возвращены, новые постараюсь писать)&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
