@@ -178,6 +178,17 @@ body>div>div {
     /*background: #f8f8f8 top left;*/
     border-right: 1px solid #e0e0e0
 }
+/* progress-read: полоса прогресса чтения на страницах постов */
+#progress-read {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 3px;
+    width: 0;
+    background-color: #0181eb;
+    z-index: 9999;
+    transition: width 0.1s linear;
+}
 /*.heading,
 body>header h1,
 h1,
