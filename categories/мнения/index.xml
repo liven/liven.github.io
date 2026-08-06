@@ -1,26 +1,31 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Мнения on Блог Василия Мазепина</title>
-    <link>https://liven-mv.ru/categories/%D0%BC%D0%BD%D0%B5%D0%BD%D0%B8%D1%8F/</link>
-    <description>Recent content in Мнения on Блог Василия Мазепина</description>
-    <generator>Hugo</generator>
-    <language>ru-RU</language>
-    <lastBuildDate>Wed, 16 Jul 2025 09:00:00 +0300</lastBuildDate>
-    <atom:link href="https://liven-mv.ru/categories/%D0%BC%D0%BD%D0%B5%D0%BD%D0%B8%D1%8F/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Об агрессивном маркетинге замолвлю я слово!</title>
-      <link>https://liven-mv.ru/posts/am/</link>
-      <pubDate>Wed, 16 Jul 2025 09:00:00 +0300</pubDate>
-      <guid>https://liven-mv.ru/posts/am/</guid>
-      <description>&lt;p&gt;&lt;span style=&#34;margin-right: 2em;&#34;&gt;&lt;/span&gt;&#xA;&#xA;Доброго времени суток, друзья!&#xA;Доброго времени суток, читатели! Сегодня хотелось бы высказаться по поводу такого явления как агрессивный маркетинг, ибо мысли имеются.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Про справедливость</title>
-      <link>https://liven-mv.ru/posts/school-2023/</link>
-      <pubDate>Tue, 07 Feb 2023 11:27:05 +0300</pubDate>
-      <guid>https://liven-mv.ru/posts/school-2023/</guid>
-      <description>&lt;p&gt;&lt;span style=&#34;margin-right: 2em;&#34;&gt;&lt;/span&gt;&#xA;&#xA;Недавно, в начале февраля, была встреча выпускников школы. 15 лет выпуска. И вот, за месяцок до мероприятия, присоединили меня в чат класса в  WhatsApp.&#xA;Стало мне интересно: ну вот прошло аж 15 лет, все нам уже по 30+ лет. Выпустились в 17-18. Как же сложилась судьба у моих одноклассников? Вернее не так: как построили свою судьбу мои одноклассники?&lt;/p&gt;</description>
-    </item>
-  </channel>
+	<channel>
+		<title>Мнения on Блог Василия Мазепина</title>
+		<link>https://liven-mv.ru/categories/%D0%BC%D0%BD%D0%B5%D0%BD%D0%B8%D1%8F/</link>
+		<description>Recent content in Мнения on Блог Василия Мазепина</description>
+		<generator>Hugo</generator>
+		<language>ru-RU</language>
+		
+		
+		
+		
+			<lastBuildDate>Wed, 16 Jul 2025 09:00:00 +0300</lastBuildDate>
+		
+			<atom:link href="https://liven-mv.ru/categories/%D0%BC%D0%BD%D0%B5%D0%BD%D0%B8%D1%8F/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Об агрессивном маркетинге замолвлю я слово!</title>
+				<link>https://liven-mv.ru/posts/am/</link>
+				<pubDate>Wed, 16 Jul 2025 09:00:00 +0300</pubDate>
+				<guid>https://liven-mv.ru/posts/am/</guid>
+				<description>&lt;p&gt;&lt;span style=&#34;margin-right: 2em;&#34;&gt;&lt;/span&gt;&#xA;&#xA;Доброго времени суток, друзья!&#xA;Доброго времени суток, читатели! Сегодня хотелось бы высказаться по поводу такого явления как агрессивный маркетинг, ибо мысли имеются.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Про справедливость</title>
+				<link>https://liven-mv.ru/posts/school-2023/</link>
+				<pubDate>Tue, 07 Feb 2023 11:27:05 +0300</pubDate>
+				<guid>https://liven-mv.ru/posts/school-2023/</guid>
+				<description>&lt;p&gt;&lt;span style=&#34;margin-right: 2em;&#34;&gt;&lt;/span&gt;&#xA;&#xA;Недавно, в начале февраля, была встреча выпускников школы. 15 лет выпуска. И вот, за месяцок до мероприятия, присоединили меня в чат класса в  WhatsApp.&#xA;Стало мне интересно: ну вот прошло аж 15 лет, все нам уже по 30+ лет. Выпустились в 17-18. Как же сложилась судьба у моих одноклассников? Вернее не так: как построили свою судьбу мои одноклассники?&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>
