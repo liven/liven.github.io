@@ -1,31 +1,98 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-	<channel>
-		<title>Разработка on Блог Василия Мазепина</title>
-		<link>https://liven-mv.ru/categories/%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/</link>
-		<description>Recent content in Разработка on Блог Василия Мазепина</description>
-		<generator>Hugo</generator>
-		<language>ru-RU</language>
-		
-		
-		
-		
-			<lastBuildDate>Wed, 30 Aug 2023 21:00:00 +0300</lastBuildDate>
-		
-			<atom:link href="https://liven-mv.ru/categories/%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/index.xml" rel="self" type="application/rss+xml" />
-			<item>
-				<title>Пока я спал.. (немного истории)</title>
-				<link>https://liven-mv.ru/posts/while_i_sleep/</link>
-				<pubDate>Wed, 30 Aug 2023 21:00:00 +0300</pubDate>
-				<guid>https://liven-mv.ru/posts/while_i_sleep/</guid>
-				<description>&lt;p&gt;Доброго времени суток, коллеги и гости..&#xA;Когда-то давно, я вел свой блог на wordpress, и там была одна статья, которую я бы хотел повторить и в новом блоге, ибо мне кажется, достаточно интересная история. Статья была написана примерно в начале 2012 года. Итак, начнем )))&lt;/p&gt;</description>
-			</item>
-			<item>
-				<title>Расстояние между двумя координатами</title>
-				<link>https://liven-mv.ru/posts/sql-distance/</link>
-				<pubDate>Sun, 23 Apr 2017 10:46:09 +0300</pubDate>
-				<guid>https://liven-mv.ru/posts/sql-distance/</guid>
-				<description>&lt;p&gt;&lt;span style=&#34;margin-right: 2em;&#34;&gt;&lt;/span&gt;&#xA;&#xA;Доброго времени суток, коллеги и гости. Как то понадобилось мне узнать расстояние между двумя географическими координатами, причем наиболее легким и незамысловатым путем, еще и запросом в MySQL.&lt;/p&gt;</description>
-			</item>
-	</channel>
+    <channel>
+        <title>Разработка on Блог Василия Мазепина</title>
+        <link>https://liven-mv.ru/categories/%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/</link>
+        <description>Recent content in Разработка on Блог Василия Мазепина</description>
+        <language>ru-RU</language>
+        <lastBuildDate>Wed, 30 Aug 2023 21:00:00 +0300</lastBuildDate>
+        <atom:link href="https://liven-mv.ru/categories/%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/index.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title>Пока я спал.. (немного истории)</title>
+            <link>https://liven-mv.ru/posts/while_i_sleep/</link>
+            <pubDate>Wed, 30 Aug 2023 21:00:00 +0300</pubDate>
+            <guid>https://liven-mv.ru/posts/while_i_sleep/</guid>
+            <description>&lt;p&gt;Доброго времени суток, коллеги и гости..
+Когда-то давно, я вел свой блог на wordpress, и там была одна статья, которую я бы хотел повторить и в новом блоге, ибо мне кажется, достаточно интересная история. Статья была написана примерно в начале 2012 года. Итак, начнем )))&lt;/p&gt;
+&lt;p&gt;&lt;span style=&#34;margin-right: 2em;&#34;&gt;&lt;/span&gt;
+
+ &lt;em&gt;Чуть больше года работаю php-программистом, и стал замечать некоторые изменения в собственном мышлении.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&#34;margin-right: 2em;&#34;&gt;&lt;/span&gt;
+
+ &lt;em&gt;Передо мной стояла задача написать простенький парсер, который из csv-файла залил бы в базу данных структуру из некоторых единиц. Казалось бы, не особо сложно, надо просто взять и написать, но не тут то было. Проблема была в том, что сам я на тот момент времени никогда не сталкивался с подобной задачей и поэтому немного даже успел растеряться, однако, я твердо решил что этот парсер я просто обязан написать самостоятельно и не прибегать к помощи коллег. Быть может первый блин окажется комом, но довести его до рабочего состояния я должен. Старательно представляя в голове алгоритм программы, я шаг за шагом продумывал как писать, и взялся за написание кода где то за час до окончания рабочего дня. Собственно говоря к тому моменту мысли мои терялись и я чуть ли не плутал как говорится в трех соснах, написал себе на листочке ближайшие мини-задачи, которые надо решить и пошел домой, ибо рабочий день к тому моменту закончился. Всю дорогу домой обдумывал написание программы и особо ни к какому выводу я не пришел. Дома совершенно не занимался рабочими вопросами, однако, к своему удивлению, на следующее утро, первая моя мысль после пробуждения была: «Я знаю как его написать!». И действительно, придя на работу, я сразу же принялся за написание парсера и буквально к обеду первый кое какой прототип был сделан, однако он не заработал так как ожидалось, я допустил критичную ошибку. Но во время обеденного перерыва я еще раз продумал что можно исправить и принялся за работу. В результате к концу рабочего дня я получил исправленный парсер, который реально РАБОТАЛ. Буквально за часик я подправил код, сделал последние штрихи и проверил работоспособность на своем ноутбуке. Всё работает, рабочий день закончился победой. Но не тут то было….&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&#34;margin-right: 2em;&#34;&gt;&lt;/span&gt;
+
+ &lt;em&gt;На следующие утро, первой моей мыслью было: «Тот парсер полная фигня, срочно исправить!!» И опять я шел на работу с целью переписать парсер, однако, исходя из мысли, что тот парсер действительно работает, я не стал тратить время на написание нового, ибо мой парсер изначально позиционировался как одноразовый, и оптимизировать его не так уж необходимо, а к остальные задачи решать всё же надо.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&#34;margin-right: 2em;&#34;&gt;&lt;/span&gt;
+
+ &lt;em&gt;Суть то в чем, генерация идей по написанию парсера каким то образом происходила оба случая именно во сне, и это приятно удивляет. Авторитетный для меня программист услышав всю эту историю, сказал: «Вася, привыкай, ты становишься настоящим программистом». Это не может не радовать. Уже не говоря о пользе опыта написания еще одной программы.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&#34;margin-right: 2em;&#34;&gt;&lt;/span&gt;
+
+Вот такая интересная история…))&lt;/p&gt;</description>
+        </item>
+        <item>
+            <title>Расстояние между двумя координатами</title>
+            <link>https://liven-mv.ru/posts/sql-distance/</link>
+            <pubDate>Sun, 23 Apr 2017 10:46:09 +0300</pubDate>
+            <guid>https://liven-mv.ru/posts/sql-distance/</guid>
+            <description>&lt;p&gt;&lt;span style=&#34;margin-right: 2em;&#34;&gt;&lt;/span&gt;
+
+Доброго времени суток, коллеги и гости. Как то понадобилось мне узнать расстояние между двумя географическими координатами, причем наиболее легким и незамысловатым путем, еще и запросом в MySQL.&lt;/p&gt;
+&lt;p&gt;&lt;span style=&#34;margin-right: 2em;&#34;&gt;&lt;/span&gt;
+
+Долго бродил я по сети натыкаясь на разные рецепты. И наткнулся на официальный мануал от Google(сейчас уже ссылку не найду), который дал мне вот такую формулу:
+
+
+
+
+&lt;figure class=&#34;code&#34;&gt;
+  &lt;figcaption&gt;
+  	&lt;span&gt;SQL&lt;/span&gt;
+  &lt;/figcaption&gt;
+  &lt;div class=&#34;codewrapper&#34;&gt;
+    &lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;
+&lt;table style=&#34;border-spacing:0;padding:0;margin:0;border:0;&#34;&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 1
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 2
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 3
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 4
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 5
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 6
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 7
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 8
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 9
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;10
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;11
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;12
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;13
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;14
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;15
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;;width:100%&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-sql&#34; data-lang=&#34;sql&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;SELECT&lt;/span&gt; 
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    id,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    (&lt;span style=&#34;color:#ae81ff&#34;&gt;6371&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;*&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        acos(
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            cos(radians(&lt;span style=&#34;color:#ae81ff&#34;&gt;37&lt;/span&gt;)) &lt;span style=&#34;color:#f92672&#34;&gt;*&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            cos(radians(lat)) &lt;span style=&#34;color:#f92672&#34;&gt;*&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            cos(radians(lng) &lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt; radians(&lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;122&lt;/span&gt;)) &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            sin(radians(&lt;span style=&#34;color:#ae81ff&#34;&gt;37&lt;/span&gt;)) &lt;span style=&#34;color:#f92672&#34;&gt;*&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            sin(radians(lat))
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        )
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    ) &lt;span style=&#34;color:#66d9ef&#34;&gt;AS&lt;/span&gt; distance
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;FROM&lt;/span&gt; markers
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;HAVING&lt;/span&gt; distance &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;25&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;ORDER&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;BY&lt;/span&gt; distance
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;LIMIT&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;,&lt;span style=&#34;color:#ae81ff&#34;&gt;20&lt;/span&gt;;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&#34;margin-right: 2em;&#34;&gt;&lt;/span&gt;
+
+ В этом SQL-запросе находится 20 ближайших локаций в радиусе 25 километров для координаты (37, -122). Если необходимо искать в милях, замените в запросе 6371 на 3959. Такой запрос дает относительно неплохую точность, позволяя при этом не углубляться более сложными методами, такими как например Point в MySQL.
+Вот такой короткий пост в этом году, надеюсь рецепт этот поможет многим!
+Спасибо за внимание! Спишемся.&lt;/p&gt;</description>
+        </item>
+    </channel>
 </rss>
